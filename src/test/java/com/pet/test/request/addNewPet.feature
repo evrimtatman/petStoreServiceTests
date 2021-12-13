@@ -7,8 +7,8 @@ Background:
     Scenario: create a pet and then get it by id
         * url 'https://petstore.swagger.io/v2'
         * header Accept = 'application/json'
-        * def petreq = read('createPetReq.json')
-        * def petresp = read('createPetResponse.json')
+        * def petreq = read('../data/createPetReq.json')
+        * def petresp = read('../data/createPetResponse.json')
 
         Given path '/pet'
         And request petreq

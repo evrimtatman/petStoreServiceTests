@@ -3,7 +3,7 @@ Feature: Adding a new pet
   Background:
     * url 'https://petstore.swagger.io/v2'
     * header Accept = 'application/json'
-    * def result = callonce read('../users/addNewPet.feature')
+    * def result = callonce read('../request/addNewPet.feature')
 
 
   Scenario: Querying the created pet
