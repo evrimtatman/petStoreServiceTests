@@ -1,0 +1,18 @@
+{
+  "id": "#ignore",
+  "category": {
+    "id": 0,
+    "name": "Pets"
+  },
+  "name": "Scout",
+  "photoUrls": [
+    "scout.png"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "pet-dog"
+    }
+  ],
+  "status": "available"
+}
